@@ -6649,7 +6649,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.Slideshow = void 0;
 
-var _slide = require("../slide");
+var _slide = require("../slide.js");
 
 var _events = require("events");
 
@@ -6911,11 +6911,11 @@ exports.Slideshow = Slideshow;
 },{"../slide":"Drnq","events":"FRpO","gsap":"TpQl"}],"C3Xv":[function(require,module,exports) {
 "use strict";
 
-var _utils = require("../utils");
+var _utils = require("../utils.js");
 
-var _navigation = require("../navigation");
+var _navigation = require("../navigation.js");
 
-var _slideshow = require("./slideshow");
+var _slideshow = require("./slideshow.js");
 
 // Preload all images
 (0, _utils.preloadImages)('.slide__img').then(function () {
